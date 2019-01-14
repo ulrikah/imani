@@ -1,0 +1,4 @@
+imageio==2.4.1
+numpy==1.16.0
+pathlib==1.0.1
+Pillow==5.4.1
