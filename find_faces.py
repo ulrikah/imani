@@ -6,8 +6,8 @@ import argparse
 # from face_recognition examples: https://github.com/ageitgey/face_recognition/blob/master/examples/find_faces_in_picture.py
 
 # Load the jpg file into a numpy array
-image = face_recognition.load_image_file("assets/klst/klst2.jpg")
-size = (100, 100)
+image = face_recognition.load_image_file("assets/multiple_faces.jpg")
+size = (150, 150)
 
 # Find all the faces in the image using the default HOG-based model.
 # This method is fairly accurate, but not as accurate as the CNN model and not GPU accelerated.
@@ -27,6 +27,6 @@ for face_location in face_locations:
     pil_image = Image.fromarray(face_image)
     pil_image = pil_image.resize(size)
     pil_image = pil_image.convert('1') # convert to bw
-    pil_image.save(f"assets/klst/faces_bw/face{i}.png")
+    pil_image.save(f"assets/faces/face{i}.png")
     # pil_image.show()
     i += 1

@@ -5,8 +5,8 @@ from pathlib import Path
 
 faces = []
 
-DATA_PATH = 'assets/klst/faces_bw' # make sure all images have the same size (w x h)
-NEW_FACE_URI = 'assets/klst/klst_avg_bw.jpg'
+DATA_PATH = 'assets/faces/' # make sure all images have the same size (w x h)
+NEW_FACE_URI = 'out.png'
 SUFFIXES = ['.png', '.jpg']
 
 try: 
