@@ -3,6 +3,7 @@ This script takes the average pixel color of images in the input and produces th
 TODO:
 - write a set up guide
 - parse command line args
+- try to incorporate the microsoft celeb [dataset](https://github.com/JinRC/C-MS-Celeb/)
 
 pip-packages I've been using:
 
