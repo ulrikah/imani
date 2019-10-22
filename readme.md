@@ -1,18 +1,4 @@
-This script takes the average pixel color of images in the input and produces the result as a .png output.
-
-TODO:
-- write a set up guide
-- parse command line args
-- try to incorporate the microsoft celeb [dataset](https://github.com/JinRC/C-MS-Celeb/)
-
-pip-packages I've been using:
-
-- imageio
-- numpy
-- pathlib
-- face_recognition (which requires dlib)
-
-
+The script `avg_pixel.py` takes the average pixel color of images in the input and produces the result as a .png output.
 
 I have been using this dataset [http://people.eecs.berkeley.edu/~shiry/projects/yearbooks/yearbooks.html](http://people.eecs.berkeley.edu/~shiry/projects/yearbooks/yearbooks.html) when developing.
 
